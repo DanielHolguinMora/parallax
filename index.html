@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paralax</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <nav>
+        <div id="logo"></div> 
+
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Acerca de Nosotros</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <section id="slider">
+        <div id="content-images-slider">
+            <div class="image-slider rellax" data-rellax-speed="-10" style='background-image: url(img/4.png)'></div>
+            <div class="image-slider rellax" data-rellax-speed="-6" style='background-image: url(img/2.png)'></div>
+            <div class="text-slider rellax" data-rellax-speed="-10">
+
+                <h1 id='slider-text'>ADVENTURE</h1>
+
+            </div>
+            <div class="image-slider rellax" data-rellax-speed="-20" style='background-image: url(img/3.png)'></div>
+            <div class="image-slider" style='background-image: url(img/1.png)'></div>
+
+        </div>
+
+    </section>
+
+    <section id="content"></section>
+    
+    <script src='js/rellax.min.js'></script>
+    <script src='js/app.js'></script>
+</body>
+</html>
